@@ -1,0 +1,15 @@
+C:\Users\admin\OneDrive\Pulpit\Online wine shop\wine_shop\WineShop\bin\Debug\net9.0\WineShop.exe
+C:\Users\admin\OneDrive\Pulpit\Online wine shop\wine_shop\WineShop\bin\Debug\net9.0\WineShop.deps.json
+C:\Users\admin\OneDrive\Pulpit\Online wine shop\wine_shop\WineShop\bin\Debug\net9.0\WineShop.runtimeconfig.json
+C:\Users\admin\OneDrive\Pulpit\Online wine shop\wine_shop\WineShop\bin\Debug\net9.0\WineShop.dll
+C:\Users\admin\OneDrive\Pulpit\Online wine shop\wine_shop\WineShop\bin\Debug\net9.0\WineShop.pdb
+C:\Users\admin\OneDrive\Pulpit\Online wine shop\wine_shop\WineShop\obj\Debug\net9.0\WineShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\OneDrive\Pulpit\Online wine shop\wine_shop\WineShop\obj\Debug\net9.0\WineShop.AssemblyInfoInputs.cache
+C:\Users\admin\OneDrive\Pulpit\Online wine shop\wine_shop\WineShop\obj\Debug\net9.0\WineShop.AssemblyInfo.cs
+C:\Users\admin\OneDrive\Pulpit\Online wine shop\wine_shop\WineShop\obj\Debug\net9.0\WineShop.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Pulpit\Online wine shop\wine_shop\WineShop\obj\Debug\net9.0\WineShop.sourcelink.json
+C:\Users\admin\OneDrive\Pulpit\Online wine shop\wine_shop\WineShop\obj\Debug\net9.0\WineShop.dll
+C:\Users\admin\OneDrive\Pulpit\Online wine shop\wine_shop\WineShop\obj\Debug\net9.0\refint\WineShop.dll
+C:\Users\admin\OneDrive\Pulpit\Online wine shop\wine_shop\WineShop\obj\Debug\net9.0\WineShop.pdb
+C:\Users\admin\OneDrive\Pulpit\Online wine shop\wine_shop\WineShop\obj\Debug\net9.0\WineShop.genruntimeconfig.cache
+C:\Users\admin\OneDrive\Pulpit\Online wine shop\wine_shop\WineShop\obj\Debug\net9.0\ref\WineShop.dll
