@@ -1,6 +1,4 @@
-Ось переклад наших вимог професійною англійською мовою, так, як це зазвичай виглядає в реальних міжнародних проєктах (Product Requirements Document).
 
----
 
 ## 🍷 Technical Requirements: Project "WineShop Online"
 
