@@ -1,0 +1,54 @@
+Ось переклад наших вимог професійною англійською мовою, так, як це зазвичай виглядає в реальних міжнародних проєктах (Product Requirements Document).
+
+---
+
+## 🍷 Technical Requirements: Project "WineShop Online"
+
+### 1. Product Vision
+
+To build an online store where users can browse a wine catalog, add items to a shopping cart, and proceed to checkout. The system must verify the customer's age (alcohol is strictly for 18+) and manage inventory (stock control).
+
+### 2. Core Entities (Data Models)
+
+* **Wine:** `Id` (unique identifier), `Name`, `Type` (Red/White/Sparkling), `Price`, `Year`, `Stock` (available quantity).
+* **User:** `Name`, `Age` (for age verification), `Balance` (available funds for purchases).
+* **Cart:** A list of selected items, total amount due.
+* **Order:** Order ID, customer details, list of purchased items, order status (New, Paid, Shipped).
+
+---
+
+### 3. Implementation Roadmap
+
+#### 📦 Stage 1: Console Storefront (MVP - Minimum Viable Product)
+
+*Focus: Collections, loops, and basic OOP.*
+
+* The application greets the user and prompts for their name and age.
+* If the user is under 18, the program displays an access denied message and terminates.
+* If the user is 18+, the program displays a catalog of 5-7 different wines.
+* The user can input a wine number/ID to add it to their cart.
+* The user can enter a specific command (e.g., "0") to finish shopping, view the total sum, and receive a printed "receipt".
+
+#### 🧠 Stage 2: Smart Business Logic (Advanced C#)
+
+*Focus: LINQ, Interfaces, Exception Handling.*
+
+* **Search & Filtering:** "Display only red wines" or "Show wines under $20".
+* **Inventory Control:** If a user attempts to buy 5 bottles but only 3 are in stock, the system must throw an Exception and notify the user.
+* **Payment Processing:** Deduct the total order amount from the user's `Balance`.
+
+#### 💾 Stage 3: Data Persistence (Databases)
+
+*Focus: Entity Framework Core and SQL.*
+
+* Connect a database (e.g., SQLite or PostgreSQL) to persist wine data across application restarts.
+* Save order history permanently into the database.
+* Implement a console "Admin Panel" to allow adding new wines to the database.
+
+#### 🌐 Stage 4: Going Online (ASP.NET Core)
+
+*Focus: Web API, JSON, basic Frontend integration.*
+
+* Refactor the console application into a fully functional web server.
+* Serve data endpoints via JSON.
+* *(Bonus)* Create a simple web page with a user interface to interact with the API (e.g., "Buy" buttons).
