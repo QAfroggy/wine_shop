@@ -25,12 +25,13 @@ Console.WriteLine($"Hello {name}, nice to meet you!");
 Console.WriteLine("Please enter your age:");
 string ageInput = Console.ReadLine();
 int age = Convert.ToInt32(ageInput);
-if (age <18)
+if (age < 18)
 {
     Console.WriteLine("Sorry, access to the store is allowed only for persons 18 and older.");
     return;
 
-}else
+}
+else
 {
     Console.WriteLine("Age verified. Welcome to the catalog!");
 }
