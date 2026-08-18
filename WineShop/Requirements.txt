@@ -21,8 +21,8 @@ To build an online store where users can browse a wine catalog, add items to a s
 
 *Focus: Collections, loops, and basic OOP.*
 
-* The application greets the user and prompts for their name and age.
-* If the user is under 18, the program displays an access denied message and terminates.
+* The application greets the user and prompts for their name and age. - not yet
+* If the user is under 18, the program displays an access denied message and terminates. -done
 * If the user is 18+, the program displays a catalog of 5-7 different wines.
 * The user can input a wine number/ID to add it to their cart.
 * The user can enter a specific command (e.g., "0") to finish shopping, view the total sum, and receive a printed "receipt".

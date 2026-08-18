@@ -19,6 +19,9 @@ If the age is 18 or older, print: "Age verified. Welcome to the catalog!" and co
 
 */
 Console.WriteLine("Welcome to the Wine Shop Online!");
+Console.WriteLine("Before you can access our shop, what is your name?");
+string name = Console.ReadLine();
+Console.WriteLine($"Hello {name}, nice to meet you!");
 Console.WriteLine("Please enter your age:");
 string ageInput = Console.ReadLine();
 int age = Convert.ToInt32(ageInput);
